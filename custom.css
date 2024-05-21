@@ -5,23 +5,24 @@
   position: relative;
 }
 
-.my-custom-container{
+.my-custom-container {
   position: relative;
-  color: #8C6745;
+  color: #5D4037; /* Updated color */
 }
 
-.nav-link.active{
-  color: #A67C52 !important;
+.nav-link.active {
+  color: #795548 !important; /* Updated color */
 }
 
-.img-fluid {width: 200px;height:200px; 
+.img-fluid {
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
-  
 }
 
 .img-fluid:hover {
   transform: scale(1.1);
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .my-bg-photo * {
@@ -38,7 +39,7 @@
   left: 0;
   right: 0;
   background-color: #000;
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .my-custom-container {
@@ -50,7 +51,7 @@
 }
 
 .my-drawing {
-  transition: all .33s ease-out;
+  transition: all 0.33s ease-out;
 }
 
 .my-drawing:hover {
@@ -58,41 +59,37 @@
 }
 
 .nav-item a {
-  color: #8C6745;
+  color: #5D4037; /* Updated color */
   outline: none;
   text-decoration: none;
 }
 
 .btn.btn-lg.btn-success, 
 .btn.btn-primary.btn-lg {
-    background-color: #A67C52;
-    border-color: #A67C52;
-    margin-top: 20px;
+  background-color: #8D6E63; /* Updated color */
+  border-color: #8D6E63; /* Updated color */
+  margin-top: 20px;
 }
 
 .btn.btn-lg.btn-success:hover, 
-.btn.btn.btn-primary.btn-lg:hover { 
-    background-color: #8C6745;
-    border-color: #8C6745;
+.btn.btn-primary.btn-lg:hover {
+  background-color: #6D4C41; /* Updated color */
+  border-color: #6D4C41; /* Updated color */
 }
 
 .btn.btn-lg.btn-success:active, 
-.btn.btn-lg.btn-success:focus {
-    outline: none;
-    box-shadow: none; /* This removes the default box shadow applied by some CSS frameworks like Bootstrap on focus */
-}
-
+.btn.btn-lg.btn-success:focus,
 .btn.btn-primary.btn-lg:active,
 .btn.btn-primary.btn-lg:focus {
   outline: none;
-  box-shadow: none;
+  box-shadow: none; /* This removes the default box shadow applied by some CSS frameworks like Bootstrap on focus */
 }
 
 .btn {
-  background-color: #A67C52;
+  background-color: #8D6E63; /* Updated color */
   color: #FFFFFF;
   text-decoration: none;
-  outline: none;            
+  outline: none;
   box-shadow: none;
   border: none;
 }
@@ -101,25 +98,23 @@
   color: #FFFFFF;
 }
 
-
-.btn-link:active, .btn-link:focus {         
-  outline: none;          
-  box-shadow: none;         
-  text-decoration: none;  
+.btn-link:active, .btn-link:focus {
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
 }
 
-
 footer {
-  background-color: #E5D5C5;
+  background-color: #D7CCC8; /* Updated color */
   height: 200px;
 }
 
 .card-header {
-  background-color: #A67C52;
+  background-color: #8D6E63; /* Updated color */
   padding: 15px;
   border: none;
   text-decoration: none;
-  outline: none;            
+  outline: none;
   box-shadow: none;
 }
 
