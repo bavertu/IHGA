@@ -5,9 +5,23 @@
   position: relative;
 }
 
-.img-fluid {width: 200px;height:200px !important;
-    
-    border-radius: 10px;
+.my-custom-container{
+  position: relative;
+  color: #8C6745;
+}
+
+.nav-link.active{
+  color: #A67C52 !important;
+}
+
+.img-fluid {width: 200px;height:200px; 
+  border-radius: 10px;
+  
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 }
 
 .my-bg-photo * {
@@ -35,11 +49,6 @@
   text-align: center;
 }
 
-
-.accordion .btn-link:focus {
-  box-shadow: none;
-}
-
 .my-drawing {
   transition: all .33s ease-out;
 }
@@ -48,7 +57,73 @@
   transform: scale(1.054) rotate(15deg);
 }
 
-.btn.btn-lg.btn-success {
-  margin-top: 20px;
+.nav-item a {
+  color: #8C6745;
+  outline: none;
+  text-decoration: none;
 }
 
+.btn.btn-lg.btn-success, 
+.btn.btn-primary.btn-lg {
+    background-color: #A67C52;
+    border-color: #A67C52;
+    margin-top: 20px;
+}
+
+.btn.btn-lg.btn-success:hover, 
+.btn.btn.btn-primary.btn-lg:hover { 
+    background-color: #8C6745;
+    border-color: #8C6745;
+}
+
+.btn.btn-lg.btn-success:active, 
+.btn.btn-lg.btn-success:focus {
+    outline: none;
+    box-shadow: none; /* This removes the default box shadow applied by some CSS frameworks like Bootstrap on focus */
+}
+
+.btn.btn-primary.btn-lg:active,
+.btn.btn-primary.btn-lg:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn {
+  background-color: #A67C52;
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: none;            
+  box-shadow: none;
+  border: none;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+}
+
+
+.btn-link:active, .btn-link:focus {         
+  outline: none;          
+  box-shadow: none;         
+  text-decoration: none;  
+}
+
+
+footer {
+  background-color: #E5D5C5;
+  height: 200px;
+}
+
+.card-header {
+  background-color: #A67C52;
+  padding: 15px;
+  border: none;
+  text-decoration: none;
+  outline: none;            
+  box-shadow: none;
+}
+
+footer {
+  margin-left: 0;
+  margin-right: 0;
+}
