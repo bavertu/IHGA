@@ -1,3 +1,19 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 .my-bg-photo {
   background: url('images/biocups.jpg') no-repeat;
   background-size: cover;
@@ -107,6 +123,8 @@
 footer {
   background-color: #D7CCC8; /* Updated color */
   height: 200px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .card-header {
@@ -116,9 +134,4 @@ footer {
   text-decoration: none;
   outline: none;
   box-shadow: none;
-}
-
-footer {
-  margin-left: 0;
-  margin-right: 0;
 }
